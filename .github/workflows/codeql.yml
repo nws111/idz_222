@@ -6,44 +6,101 @@ on:
   pull_request:
     branches: [ "master", "main" ]
   schedule:
-    - cron: '30 1 * * 0'
+    - cron: '30 1 * * 0'  # каждое воскресенье в 1:30
+  workflow_dispatch:  # позволяет запускать вручную из интерфейса GitHub
 
 jobs:
   analyze:
     name: Analyze C# code
     runs-on: windows-latest
+    timeout-minutes: 30  # лимит времени на выполнение
     permissions:
       actions: read
       contents: read
       security-events: write
+      pull-requests: write  # для комментариев в PR
 
     strategy:
-      fail-fast: false
+      fail-fast: false  # не останавливать другие языки при ошибке
       matrix:
         language: [ 'csharp' ]
+        # можно добавить другие версии .NET для тестирования
+        dotnet-version: [ '8.0.x' ]
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 2  # для лучшего анализа изменений
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'  # <-- у вас .NET 8
+        dotnet-version: ${{ matrix.dotnet-version }}
+
+    - name: Cache NuGet packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-        config-file: ./.github/codeql/codeql-config.yml  # <-- добавьте эту строку
+        config-file: ./.github/codeql/codeql-config.yml
+        queries: security-and-quality  # максимально полный анализ
+        tools: latest  # использовать последнюю версию CodeQL
 
     - name: Restore dependencies
       run: dotnet restore
 
     - name: Build
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build --no-restore --configuration Release /p:Deterministic=true
+      env:
+        DOTNET_CLI_TELEMETRY_OPTOUT: true  # отключаем телеметрию
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+        upload: always  # всегда загружать результаты, даже если есть ошибки
+        output: sarif-results  # сохранять результаты в формате SARIF
+        checkout_path: ${{ github.workspace }}  # полный путь для анализа
+
+    - name: Upload SARIF results (optional)
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: codeql-results
+        path: sarif-results
+        retention-days: 7  # хранить артефакты 7 дней
+
+    - name: Add PR comment with findings
+      if: github.event_name == 'pull_request' && always()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const path = require('path');
+          try {
+            const sarifPath = path.join(process.env.GITHUB_WORKSPACE, 'sarif-results', 'csharp.sarif');
+            if (fs.existsSync(sarifPath)) {
+              const data = fs.readFileSync(sarifPath, 'utf8');
+              const results = JSON.parse(data);
+              const alerts = results.runs[0].results || [];
+              const count = alerts.length;
+              if (count > 0) {
+                await github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: `## 🔍 CodeQL Analysis Results\n\nFound **${count}** potential issues in this PR.\n\nPlease check the **Security** tab for details.`
+                });
+              }
+            }
+          } catch(e) {
+            console.log('Skipping PR comment:', e.message);
+          }
