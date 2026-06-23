@@ -1,0 +1,66 @@
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\idz222.exe
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\idz222.deps.json
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\idz222.runtimeconfig.json
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\idz222.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\idz222.pdb
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\newpageidk\idz222\idz222\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.csproj.AssemblyReference.cache
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.GeneratedMSBuildEditorConfig.editorconfig
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfoInputs.cache
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfo.cs
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.csproj.CoreCompileInputs.cache
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.csproj.Up2Date
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.dll
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\refint\idz222.dll
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.pdb
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\idz222.genruntimeconfig.cache
+D:\newpageidk\idz222\idz222\obj\Debug\net8.0\ref\idz222.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\idz222.exe
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\idz222.deps.json
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\idz222.runtimeconfig.json
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\idz222.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\idz222.pdb
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.csproj.AssemblyReference.cache
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfoInputs.cache
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfo.cs
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.csproj.CoreCompileInputs.cache
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.csproj.CopyComplete
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\refint\idz222.dll
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.pdb
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\idz222.genruntimeconfig.cache
+C:\Users\ilya0\Downloads\Telegram Desktop\idz222\idz222\idz222\obj\Debug\net8.0\ref\idz222.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\idz222.exe
+D:\билять\idz222\idz222\bin\Debug\net8.0\idz222.deps.json
+D:\билять\idz222\idz222\bin\Debug\net8.0\idz222.runtimeconfig.json
+D:\билять\idz222\idz222\bin\Debug\net8.0\idz222.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\idz222.pdb
+D:\билять\idz222\idz222\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\билять\idz222\idz222\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.csproj.AssemblyReference.cache
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.GeneratedMSBuildEditorConfig.editorconfig
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfoInputs.cache
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.AssemblyInfo.cs
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.csproj.CoreCompileInputs.cache
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.csproj.Up2Date
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.dll
+D:\билять\idz222\idz222\obj\Debug\net8.0\refint\idz222.dll
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.pdb
+D:\билять\idz222\idz222\obj\Debug\net8.0\idz222.genruntimeconfig.cache
+D:\билять\idz222\idz222\obj\Debug\net8.0\ref\idz222.dll

@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|d:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\sv\\accessrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|solutionrelative:idz222\\sv\\accessrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|d:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|solutionrelative:idz222\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|d:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\sv\\accesscontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|solutionrelative:idz222\\sv\\accesscontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|d:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\sv\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|solutionrelative:idz222\\sv\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|d:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2038C0A0-E35C-4003-B86F-9A5A666263E5}|idz222\\idz222.csproj|solutionrelative:idz222\\helpers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Helpers\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "idz222\\Helpers\\DatabaseHelper.cs",
+              "ToolTip": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Helpers\\DatabaseHelper.cs",
+              "RelativeToolTip": "idz222\\Helpers\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T06:06:03.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccessRequestService.cs",
+              "DocumentMoniker": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\AccessRequestService.cs",
+              "RelativeDocumentMoniker": "idz222\\Sv\\AccessRequestService.cs",
+              "ToolTip": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\AccessRequestService.cs",
+              "RelativeToolTip": "idz222\\Sv\\AccessRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:01:39.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\ReportService.cs",
+              "RelativeDocumentMoniker": "idz222\\Sv\\ReportService.cs",
+              "ToolTip": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\ReportService.cs",
+              "RelativeToolTip": "idz222\\Sv\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:02:49.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccessControlService.cs",
+              "DocumentMoniker": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\AccessControlService.cs",
+              "RelativeDocumentMoniker": "idz222\\Sv\\AccessControlService.cs",
+              "ToolTip": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Sv\\AccessControlService.cs",
+              "RelativeToolTip": "idz222\\Sv\\AccessControlService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:02:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Program.cs",
+              "RelativeDocumentMoniker": "idz222\\Program.cs",
+              "ToolTip": "D:\\\u0431\u0438\u043B\u044F\u0442\u044C\\idz222\\idz222\\Program.cs",
+              "RelativeToolTip": "idz222\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:40:24.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
