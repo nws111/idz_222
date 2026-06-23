@@ -6,12 +6,12 @@ on:
   pull_request:
     branches: [ "master", "main" ]
   schedule:
-    - cron: '30 1 * * 0'  # автоматический запуск каждое воскресенье в 1:30
+    - cron: '30 1 * * 0'
 
 jobs:
   analyze:
     name: Analyze C# code
-    runs-on: windows-latest  # для C# нужен Windows
+    runs-on: windows-latest
     permissions:
       actions: read
       contents: read
@@ -29,12 +29,13 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'  # измените на вашу версию .NET
+        dotnet-version: '8.0.x'  # <-- у вас .NET 8
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
+        config-file: ./.github/codeql/codeql-config.yml  # <-- добавьте эту строку
 
     - name: Restore dependencies
       run: dotnet restore
